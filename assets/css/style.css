@@ -1,0 +1,421 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 960px;
+	margin-top: 0;
+}
+
+h1 {
+	background: #4aaaa5;
+	color: white;
+	width: 155px;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	height: 45px;
+	font-size: 24px;
+}
+
+form {
+	margin-top: 0;
+	padding-top: 5px;
+	font-size: 14px;
+	color: #777777;
+	font-style: Arial;
+}
+
+textarea {
+	border-radius: 2px;
+	border: 1px solid #dddddd;
+	margin-top: 10px;
+	width: 600px;
+	resize: none;
+}
+
+
+
+
+input[type=text] {
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	height: 20px;
+	border: 1px solid #dddddd;
+	color: #dddddd;
+
+}
+
+input[type=text]:focus {
+	color: black;
+}
+
+
+input[type=submit] {
+	background: #4aaaa5;
+	color: white;
+	border-style: none;
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+}
+
+#inputmessage {
+	height: 150px;
+}
+
+.footer {
+	margin-top: 0;
+	margin-left: -10px;
+	background: #666666;
+	text-align: center;
+	height: 60px;
+	border-top-style: solid;
+	border-color: #4aaaa4;
+	border-width: 5px;
+	color: #ffffff;
+	font-size: 10px;
+	padding-top: 23px;
+	width: 960px;
+}
+
+.navigation a {
+	font-style: Arial;
+	font-size: 18px;
+	color: #777777;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.navigation {
+	position: absolute;
+	left: 700px;
+	top: 30px;
+	font-style: Arial;
+	font-size: 18px;
+	color: #777777;
+} 
+
+
+.header {
+	background: #ffffff;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-width: 2px;
+	position: absolute;
+	width: 960px;
+	padding: 0;
+	margin-left: -10px;
+	margin-right: -20px;
+	top: 0;
+	height: 65px;
+	text-align: center;
+}
+
+.body {
+	background-image: url(../images/pow\ star/pow-star.png);
+	position: relative;
+	margin-top: 75px;
+	height: 800px;
+	margin-left: -10px;
+	width: 960px;
+	margin-top: 65px;
+
+}
+
+.aboutme {
+	background: #ffffff;
+	width: 650px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	height: 700px;
+	text-align: justify;
+}
+
+#aboutmeheader {
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: #dddddd;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 30px;
+	font-size: 28px;
+	color: #4aaaa5;
+}
+
+#bodytext {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 15px 30px 5px 20px;
+	font-style: Arial;
+	font-size: 17px;
+	text-align: left;
+
+}
+
+.contact {
+	background: #ffffff;
+	width: 650px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	position: absolute;
+	left: 15px;
+	top: 20px;
+	height: 450px;
+}
+
+#contactheader {
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: #dddddd;
+	padding-bottom: 20px;
+	margin: 10px 30px 10px 20px;
+	font-size: 28px;
+	color: #4aaaa5;
+}
+
+#contactbodytext {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0 10px 5px 15px;
+
+}
+
+#profilepic {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 0 20px 0 0px;
+}
+
+.gallerysec{
+	width: 186px;
+	height: 120px;
+	margin: 5px 20.5px 20px 0;
+	padding-right: -20px;
+
+}
+
+.gallerysection {
+	background: #ffffff;
+	width: 450px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	position: absolute;
+	left: 75px;
+	top: 20px;
+	height: 670px;
+	text-align: justify;
+}
+
+
+
+.gallerybody {
+	background-image: url(../images/pow\ star/pow-star.png);
+	position: relative;
+	margin-top: 75px;
+	height: 800px;
+	margin-left: -10px;
+	width: 960px;
+	margin-top: 65px;
+
+}
+#img1 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img2 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img3 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img4 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img5 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img6 {
+	float: left;
+	border-radius: 8px;
+}
+
+#img7 {
+	float: left;
+	border-radius: 8px;
+}
+
+#galleryheader {
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: #dddddd;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	margin: 10px 30px 10px 25px;
+	font-size: 28px;
+	font-weight: 20px;
+	color: #4aaaa5;
+	font-style: arial;
+
+}
+
+#gallerybodytext {
+	padding-left: 10px;
+	padding-right: 5px;
+	margin: 0 0px 5px 15px;
+	position: relative;
+}
+
+.sidebar {
+	width: 270px;
+	position: absolute;
+	background: #ffffff;
+	right: 13px;
+	top: 20px;
+	text-align: center;
+	height: 125px;
+	clear: both;
+}
+
+#sidebarheader {
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #4aaaa5;
+	padding-bottom: 10px;
+}
+
+
+.gallerysidebar {
+	width: 270px;
+	position: absolute;
+	background: #ffffff;
+	right: 100px;
+	top: 20px;
+	text-align: center;
+	height: 125px;
+	clear: both;
+}
+
+
+.socialmedia {
+	width: 70px;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#img1text {
+	position: absolute;
+	top: 90px;
+	background: #4aaaa5;
+	width: 186px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+}
+
+#img2text {
+	position: absolute;
+	width: 186px;
+	top: 90px;
+	right: 30px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
+
+#img3text {
+	position: absolute;
+	width: 186px;
+	top: 235px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
+
+#img4text {
+	position: absolute;
+	width: 186px;
+	top: 235px;
+	right: 30px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
+
+#img5text {
+	position: absolute;
+	width: 186px;
+	top: 380px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
+
+#img6text {
+	position: absolute;
+	width: 186px;
+	top: 380px;
+	right: 30px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
+
+#img7text {
+	position: absolute;
+	width: 186px;
+	top: 525px;
+	text-align: center;
+	font-style: Arial;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-weight: 5px;
+	background: #4aaaa5;
+}
